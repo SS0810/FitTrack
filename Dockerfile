@@ -27,6 +27,9 @@ COPY --from=builder /app/package.json ./package.json
 COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/data ./data
 
+# ✅ FIX: Copy the entire scripts directory needed by the setup script
+COPY --from=builder /app/scripts ./scripts
+
 # ✅ FIX: Copy node_modules instead of reinstalling
 COPY --from=builder /app/node_modules ./node_modules
 

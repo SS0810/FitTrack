@@ -68,17 +68,17 @@ export function BottomNavigation() {
         description: t("bottom_navigation.tools_tooltip"),
         isActive: pathname.includes("/tools"),
     },
-    {
-      id: "premium",
-      label: t("bottom_navigation.premium"),
-      shortLabel: t("bottom_navigation.premium"),
-      mobileLabel: t("bottom_navigation.premium"),
-      href: `/${locale}/premium`,
-      icon: Crown,
-      emoji: "fittrackRich.png",
-      description: t("bottom_navigation.premium_tooltip"),
-      isActive: pathname.includes("/premium"),
-    },
+    // {
+    //   id: "premium",
+    //   label: t("bottom_navigation.premium"),
+    //   shortLabel: t("bottom_navigation.premium"),
+    //   mobileLabel: t("bottom_navigation.premium"),
+    //   href: `/${locale}/premium`,
+    //   icon: Crown,
+    //   emoji: "fittrackRich.png",
+    //   description: t("bottom_navigation.premium_tooltip"),
+    //   isActive: pathname.includes("/premium"),
+    // },
   ];
 
   return (
