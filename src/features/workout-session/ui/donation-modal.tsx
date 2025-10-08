@@ -39,7 +39,7 @@ export function DonationModal({ isOpen, onClose }: DonationModalProps) {
   }, [onClose]);
 
   const handleDonateKofi = () => {
-    window.open("https://ko-fi.com/workoutcool", "_blank");
+    window.open("https://ko-fi.com/fittrack", "_blank");
     onClose();
   };
 
@@ -116,9 +116,9 @@ export function DonationModal({ isOpen, onClose }: DonationModalProps) {
           <iframe
             height="700"
             id="kofiframe"
-            src="https://ko-fi.com/workoutcool/?hidefeed=true&widget=true&embed=true&preview=true"
+            src="https://ko-fi.com/fittrack/?hidefeed=true&widget=true&embed=true&preview=true"
             style={{ border: "none", width: "100%", padding: "4px" }}
-            title="workoutcool"
+            title="fittrack"
           ></iframe>
         </div>
 

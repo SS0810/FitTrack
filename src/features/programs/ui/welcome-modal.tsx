@@ -81,10 +81,10 @@ export function WelcomeModal({
             <div className="relative inline-block mb-4">
               <div className="w-24 h-24 mx-auto relative animate-bounce">
                 <Image
-                  alt="WorkoutCool Mascot"
+                  alt="fittrack Mascot"
                   className="object-contain"
                   height={96}
-                  src="/images/emojis/WorkoutCoolSwag.png"
+                  src="/images/emojis/fittrackSwag.png"
                   width={96}
                 />
               </div>
@@ -135,7 +135,7 @@ export function WelcomeModal({
           {/* Tips */}
           {/* <div className="bg-yellow-50 dark:bg-yellow-900/20 border border-yellow-200 dark:border-yellow-800 rounded-xl p-4">
             <div className="flex gap-3">
-              <Image alt="Tip" className="object-contain" height={32} src="/images/emojis/WorkoutCoolHappy.png" width={32} />
+              <Image alt="Tip" className="object-contain" height={32} src="/images/emojis/fittrackHappy.png" width={32} />
               <div className="text-sm">
                 <p className="font-semibold text-yellow-800 dark:text-yellow-200 mb-1">Astuce du coach</p>
                 <p className="text-yellow-700 dark:text-yellow-300">

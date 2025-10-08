@@ -35,7 +35,7 @@ export function PricingHeroSection() {
             <div className="absolute inset-0 bg-gradient-to-r from-[#FF6B35]/20 to-[#00D4AA]/20 blur-3xl opacity-50" />
             <div className="relative bg-white/80 dark:bg-gray-900/80 backdrop-blur-sm rounded-2xl p-6 md:p-8">
               <div className="flex items-center justify-center mb-6">
-                <Image alt="Community mascot" className="drop-shadow-2xl" height={80} src="/images/emojis/WorkoutCoolLove.png" width={80} />
+                <Image alt="Community mascot" className="drop-shadow-2xl" height={80} src="/images/emojis/fittrackLove.png" width={80} />
                 <div className="absolute -top-2 -right-2">
                   <div className="relative">
                     <Sparkles className="w-6 h-6 text-[#FF6B35]" />

@@ -25,7 +25,7 @@ export const DonationAlert = ({ className }: DonationAlertProps) => {
           {t("donation_alert.title")}{" "}
           <Link
             className="font-medium text-gray-900 underline hover:text-gray-700 dark:text-gray-200"
-            href="https://ko-fi.com/workoutcool"
+            href="https://ko-fi.com/fittrack"
             target="_blank"
           >
             Ko-fi

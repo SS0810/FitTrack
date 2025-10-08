@@ -34,10 +34,10 @@
     }
   ],
   "lang": "en",
-  "name": "Workout Cool",
+  "name": "fittrack",
   "orientation": "portrait",
   "scope": "/",
-  "short_name": "Workout Cool",
+  "short_name": "fittrack",
   "start_url": "/",
   "theme_color": "#FF5722"
 }

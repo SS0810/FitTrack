@@ -80,7 +80,7 @@ async function DashboardStats() {
                 </p>
               </div>
               <div className="transition-transform duration-200 group-hover:rotate-6">
-                <Image alt="Happy mascot" className="h-12 w-12" height={48} src="/images/emojis/WorkoutCoolHappy.png" width={48} />
+                <Image alt="Happy mascot" className="h-12 w-12" height={48} src="/images/emojis/fittrackHappy.png" width={48} />
               </div>
             </div>
           </div>
@@ -95,7 +95,7 @@ async function DashboardStats() {
                   alt="Swag mascot"
                   className="h-8 w-8 transition-transform duration-200 group-hover:scale-110"
                   height={32}
-                  src="/images/emojis/WorkoutCoolSwag.png"
+                  src="/images/emojis/fittrackSwag.png"
                   width={32}
                 />
               </div>
@@ -118,7 +118,7 @@ async function DashboardStats() {
                   alt="Wooow mascot"
                   className="h-8 w-8 transition-transform duration-200 group-hover:scale-110"
                   height={32}
-                  src="/images/emojis/WorkoutCoolWooow.png"
+                  src="/images/emojis/fittrackWooow.png"
                   width={32}
                 />
               </div>
@@ -136,7 +136,7 @@ async function DashboardStats() {
                   alt="Love mascot"
                   className="h-8 w-8 transition-transform duration-200 group-hover:scale-110"
                   height={32}
-                  src="/images/emojis/WorkoutCoolBiceps.png"
+                  src="/images/emojis/fittrackBiceps.png"
                   width={32}
                 />
               </div>
@@ -155,7 +155,7 @@ async function DashboardStats() {
                   alt="Teeth mascot"
                   className="h-8 w-8 transition-transform duration-200 group-hover:scale-110"
                   height={32}
-                  src="/images/emojis/WorkoutCoolTeeths.png"
+                  src="/images/emojis/fittrackTeeths.png"
                   width={32}
                 />
               </div>
@@ -213,7 +213,7 @@ export default function AdminDashboard() {
         </div>
         <div>
           <h1 className="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Dashboard Admin</h1>
-          <p className="text-gray-600 dark:text-gray-300">WorkoutCool Admin</p>
+          <p className="text-gray-600 dark:text-gray-300">fittrack Admin</p>
         </div>
       </div>
 

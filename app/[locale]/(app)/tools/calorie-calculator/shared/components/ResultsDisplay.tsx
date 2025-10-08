@@ -24,7 +24,7 @@ export function ResultsDisplay({ results }: ResultsDisplayProps) {
         <h2 className="text-2xl font-bold bg-gradient-to-r from-[#4F8EF7] to-[#238BE6] bg-clip-text text-transparent">
           {t("tools.calorie-calculator.results.title")}
         </h2>
-        <Image alt="Happy" className="opacity-90 animate-bounce" height={48} src="/images/emojis/WorkoutCoolHappy.png" width={48} />
+        <Image alt="Happy" className="opacity-90 animate-bounce" height={48} src="/images/emojis/fittrackHappy.png" width={48} />
       </div>
 
       {/* Main Results */}

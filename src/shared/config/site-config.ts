@@ -1,5 +1,5 @@
 export const SiteConfig = {
-  title: "Workout Cool",
+  title: "fittrack",
   description: "Modern fitness coaching platform with comprehensive exercise database",
   keywords: [
     "fitness",
@@ -13,26 +13,26 @@ export const SiteConfig = {
     "workout planner",
     "exercise database",
   ],
-  prodUrl: "https://workout.cool",
+  prodUrl: "https://fittrack",
   logo: "/images/logo.png",
-  domain: "workout.cool",
+  domain: "fittrack",
   appIcon: "/images/logo4.jpg",
   company: {
-    name: "Workout Cool",
+    name: "fittrack",
     address: "34 avenue des champ Elysée 75008 Paris, France",
   },
   brand: {
     primary: "#007291",
   },
   email: {
-    from: "Workout Cool <hello@workout.cool>",
-    contact: "hello@workout.cool",
+    from: "fittrack <hello@fittrack>",
+    contact: "hello@fittrack",
   },
   maker: {
-    image: "https://workout.cool/images/me/twitter-en.jpg",
-    website: "https://workout.cool",
-    twitter: "https://twitter.com/workout_cool",
-    name: "Workout Cool",
+    image: "https://fittrack/images/me/twitter-en.jpg",
+    website: "https://fittrack",
+    twitter: "https://twitter.com/fittrack",
+    name: "fittrack",
   },
   auth: {
     password: false,
@@ -43,7 +43,7 @@ export const SiteConfig = {
       height: 630,
     },
     twitterHandle: "@snouzy_biceps",
-    applicationName: "Workout Cool",
+    applicationName: "fittrack",
     category: "fitness",
     classification: "Fitness & Health",
   },

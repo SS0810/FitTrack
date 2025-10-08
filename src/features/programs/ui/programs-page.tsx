@@ -23,11 +23,11 @@ export async function ProgramsPage({ locale }: ProgramsPageProps) {
         <div className="flex flex-col items-center justify-center flex-1 p-6">
           <div className="mb-6">
             <Image
-              alt="Mascotte WorkoutCool triste"
+              alt="Mascotte fittrack triste"
               className="object-contain w-20 h-20"
               height={80}
               priority
-              src="/images/emojis/WorkoutCoolCry.png"
+              src="/images/emojis/fittrackCry.png"
               width={80}
             />
           </div>
@@ -72,11 +72,11 @@ export async function ProgramsPage({ locale }: ProgramsPageProps) {
             <div className="relative ml-4">
               <div className="w-16 h-16 sm:w-20 sm:h-20 relative">
                 <Image
-                  alt="Mascotte WorkoutCool"
+                  alt="Mascotte fittrack"
                   className="object-contain w-full h-full"
                   height={80}
                   priority
-                  src="/images/emojis/WorkoutCoolBiceps.png"
+                  src="/images/emojis/fittrackBiceps.png"
                   width={80}
                 />
                 <div className="absolute -top-2 -right-2 bg-yellow-400 rounded-full p-1.5 shadow-lg">
@@ -116,10 +116,10 @@ export async function ProgramsPage({ locale }: ProgramsPageProps) {
               <div className="bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-800 dark:to-slate-900 border-2 border-dashed border-slate-300 dark:border-slate-600 rounded-2xl p-3 sm:p-8 text-center relative">
                 <div className="absolute -top-2 -right-2 sm:top-4 sm:right-4">
                   <Image
-                    alt="Mascotte WorkoutCool excitée"
+                    alt="Mascotte fittrack excitée"
                     className="object-contain w-10 h-10 sm:w-12 sm:h-12 opacity-60"
                     height={48}
-                    src="/images/emojis/WorkoutCoolWooow.png"
+                    src="/images/emojis/fittrackWooow.png"
                     width={48}
                   />
                 </div>

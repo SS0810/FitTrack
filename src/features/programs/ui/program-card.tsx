@@ -47,7 +47,7 @@ export async function ProgramCard({ program, featured = false, size = "medium", 
       case "BEGINNER":
         return {
           gradient: "from-[#25CB78] to-emerald-500",
-          emoji: "/images/emojis/WorkoutCoolHappy.png",
+          emoji: "/images/emojis/fittrackHappy.png",
           color: "text-emerald-800 dark:text-emerald-200",
           bgColor: "bg-emerald-100/90 dark:bg-emerald-900/80",
           borderColor: "border-emerald-200/60 dark:border-emerald-700/60",
@@ -55,7 +55,7 @@ export async function ProgramCard({ program, featured = false, size = "medium", 
       case "INTERMEDIATE":
         return {
           gradient: "from-[#4F8EF7] to-blue-500",
-          emoji: "/images/emojis/WorkoutCoolBiceps.png",
+          emoji: "/images/emojis/fittrackBiceps.png",
           color: "text-blue-800 dark:text-blue-200",
           bgColor: "bg-blue-100/90 dark:bg-blue-900/80",
           borderColor: "border-blue-200/60 dark:border-blue-700/60",
@@ -63,7 +63,7 @@ export async function ProgramCard({ program, featured = false, size = "medium", 
       case "ADVANCED":
         return {
           gradient: "from-orange-500 to-red-500",
-          emoji: "/images/emojis/WorkoutCoolSwag.png",
+          emoji: "/images/emojis/fittrackSwag.png",
           color: "text-orange-800 dark:text-orange-200",
           bgColor: "bg-orange-100/90 dark:bg-orange-900/80",
           borderColor: "border-orange-200/60 dark:border-orange-700/60",
@@ -71,7 +71,7 @@ export async function ProgramCard({ program, featured = false, size = "medium", 
       default:
         return {
           gradient: "from-slate-500 to-gray-600",
-          emoji: "/images/emojis/WorkoutCoolHappy.png",
+          emoji: "/images/emojis/fittrackHappy.png",
           color: "text-slate-800 dark:text-slate-200",
           bgColor: "bg-slate-100/90 dark:bg-slate-900/80",
           borderColor: "border-slate-200/60 dark:border-slate-700/60",

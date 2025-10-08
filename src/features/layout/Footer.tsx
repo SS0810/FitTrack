@@ -10,7 +10,7 @@ import { DiscordSvg } from "@/components/svg/DiscordSvg";
 
 const SOCIAL_LINKS = [
   {
-    href: "https://github.com/Snouzy/workout-cool",
+    href: "https://github.com/Snouzy/fittrack",
     icon: Github,
     label: "GitHub",
   },
@@ -32,7 +32,7 @@ const SOCIAL_LINKS = [
 ];
 
 const NAVIGATION = (t: TFunction) => [
-  { name: t("commons.donate"), href: "https://ko-fi.com/workoutcool" },
+  { name: t("commons.donate"), href: "https://ko-fi.com/fittrack" },
   { name: t("commons.about"), href: "/about" },
   { name: t("commons.privacy"), href: paths.privacy, hideOnMobile: true },
 ];

@@ -22,7 +22,7 @@ const fitnessTools: FitnessTool[] = [
   {
     id: "calorie-calculator",
     icon: <CalculatorIcon className="w-8 h-8" />,
-    emoji: "WorkoutCoolChief.png",
+    emoji: "fittrackChief.png",
     gradientFrom: "from-[#4F8EF7]",
     gradientTo: "to-[#238BE6]",
     href: "/tools/calorie-calculator",
@@ -30,7 +30,7 @@ const fitnessTools: FitnessTool[] = [
   {
     id: "bmi-calculator",
     icon: <HeartIcon className="w-8 h-8" />,
-    emoji: "WorkoutCoolLove.png",
+    emoji: "fittrackLove.png",
     gradientFrom: "from-[#FF5722]",
     gradientTo: "to-[#EF4444]",
     href: "/tools/bmi-calculator",
@@ -38,7 +38,7 @@ const fitnessTools: FitnessTool[] = [
   {
     id: "macro-calculator",
     icon: <ScaleIcon className="w-8 h-8" />,
-    emoji: "WorkoutCoolBiceps.png",
+    emoji: "fittrackBiceps.png",
     gradientFrom: "from-[#25CB78]",
     gradientTo: "to-[#22C55E]",
     href: "/tools/macro-calculator",
@@ -47,7 +47,7 @@ const fitnessTools: FitnessTool[] = [
   {
     id: "heart-rate-calculator",
     icon: <HeartIcon className="w-8 h-8" />,
-    emoji: "WorkoutCoolMedical.png",
+    emoji: "fittrackMedical.png",
     gradientFrom: "from-[#8B5CF6]",
     gradientTo: "to-[#7C3AED]",
     href: "/tools/heart-rate-zones",
@@ -55,7 +55,7 @@ const fitnessTools: FitnessTool[] = [
   {
     id: "one-rep-max",
     icon: <DumbbellIcon className="w-8 h-8" />,
-    emoji: "WorkoutCoolRich.png",
+    emoji: "fittrackRich.png",
     gradientFrom: "from-[#F59E0B]",
     gradientTo: "to-[#EF4444]",
     href: "/tools/one-rep-max",
@@ -119,7 +119,7 @@ export default async function ToolsPage() {
                         }`}
                       >
                         <Image
-                          alt="Workout Cool Emoji"
+                          alt="fittrack Emoji"
                           className="object-contain"
                           height={48}
                           src={`/images/emojis/${tool.emoji}`}
@@ -182,7 +182,7 @@ export default async function ToolsPage() {
                       }`}
                     >
                       <Image
-                        alt="Workout Cool Emoji"
+                        alt="fittrack Emoji"
                         className="object-contain"
                         height={48}
                         src={`/images/emojis/${tool.emoji}`}

@@ -33,6 +33,6 @@ We credit contributors in:
 - release notes (for impactful work)
 - internal documentation if relevant
 
-Thanks again for contributing to Workout Cool! 💪
+Thanks again for contributing to fittrack! 💪
 
 Questions? Just open an issue or ping a maintainer.

@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="public/logo.png" alt="FitTrack Logo" width="120" height="120">
-  <h1>FitTrack</h1>
+  <img src="public/logo.png" alt="fittrack Logo" width="120" height="120">
+  <h1>fittrack</h1>
   <h3><em>A modern fitness coaching platform with a comprehensive exercise database.</em></h3>
 </div>
 
@@ -8,7 +8,7 @@
 
 ## About The Project
 
-FitTrack is a comprehensive, full-stack fitness coaching application designed to help users create workout plans, track their progress, and access a vast database of exercises. Each exercise comes with detailed instructions and video demonstrations to ensure proper form and execution.
+fittrack is a comprehensive, full-stack fitness coaching application designed to help users create workout plans, track their progress, and access a vast database of exercises. Each exercise comes with detailed instructions and video demonstrations to ensure proper form and execution.
 
 This platform provides a seamless and intuitive user experience for managing personal fitness goals.
 
@@ -79,8 +79,8 @@ Make sure you have the following installed on your machine:
 
 1.  **Clone the repository**
     ```
-    git clone https://github.com/sdiv0503/FitTrack.git
-    cd FitTrack
+    git clone https://github.com/sdiv0503/fittrack.git
+    cd fittrack
     ```
 
 2.  **Docker Installation (Recommended)**

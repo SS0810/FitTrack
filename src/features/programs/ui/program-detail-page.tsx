@@ -189,10 +189,10 @@ export function ProgramDetailPage({ program, isAuthenticated }: ProgramDetailPag
           {/* Mascot Emoji */}
           <div className="absolute top-4 right-4 w-16 h-16 bg-white/20 backdrop-blur-sm rounded-full border-2 border-white/30 flex items-center justify-center">
             <Image
-              alt="Mascotte WorkoutCool"
+              alt="Mascotte fittrack"
               className="w-12 h-12 object-contain"
               height={48}
-              src="/images/emojis/WorkoutCoolSwag.png"
+              src="/images/emojis/fittrackSwag.png"
               width={48}
             />
           </div>
@@ -280,7 +280,7 @@ export function ProgramDetailPage({ program, isAuthenticated }: ProgramDetailPag
                           alt="Communauté"
                           className="w-10 h-10 object-contain"
                           height={40}
-                          src="/images/emojis/WorkoutCoolHappy.png"
+                          src="/images/emojis/fittrackHappy.png"
                           width={40}
                         />
                       </div>
@@ -386,7 +386,7 @@ export function ProgramDetailPage({ program, isAuthenticated }: ProgramDetailPag
                                 alt="Coachs"
                                 className="w-6 h-6 object-contain"
                                 height={24}
-                                src="/images/emojis/WorkoutCoolLove.png"
+                                src="/images/emojis/fittrackLove.png"
                                 width={24}
                               />
                             </div>
@@ -549,7 +549,7 @@ export function ProgramDetailPage({ program, isAuthenticated }: ProgramDetailPag
             }
             onClick={handleCTAClick}
           >
-            <Image alt="Rejoindre" className="w-6 h-6 object-contain" height={24} src="/images/emojis/WorkoutCoolSwag.png" width={24} />
+            <Image alt="Rejoindre" className="w-6 h-6 object-contain" height={24} src="/images/emojis/fittrackSwag.png" width={24} />
             <div className="flex flex-col items-center">
               <span className="text-base">{isAuthenticated && hasJoinedProgram ? t("programs.continue") : t("programs.join_cta")}</span>
             </div>

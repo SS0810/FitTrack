@@ -1,7 +1,7 @@
 .PHONY: dev up down db-migrate db-generate db-seed help
 
 help:
-	@echo "🚀 Workout Cool Development Commands"
+	@echo "🚀 fittrack Development Commands"
 	@echo ""
 	@echo "  dev                 - Start full dev environment (DB, migrate, seed, Next.js dev server)"
 	@echo "  up                  - Start PostgreSQL database using Docker Compose"

@@ -409,7 +409,7 @@ export function PremiumUpgradeCard() {
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto space-y-8">
             <div className="relative inline-block">
-              <Image alt="Happy mascot" className="mx-auto" height={80} src="/images/emojis/WorkoutCoolBiceps.png" width={80} />
+              <Image alt="Happy mascot" className="mx-auto" height={80} src="/images/emojis/fittrackBiceps.png" width={80} />
               <div className="absolute -top-2 left-1/2 -translate-x-[15%] rotate-2">
                 <div className="w-max px-3 h-7 bg-[#FF6B35] rounded-full flex items-center justify-center">
                   <span className="text-sm font-bold text-white">{t("premium.final_cta.motivation")}</span>

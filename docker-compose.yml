@@ -18,7 +18,7 @@ services:
       - "1025:1025"  # SMTP
       - "8025:8025"  # Web UI
 
-  workout_cool:
+  fittrack:
     build:
       context: .
       dockerfile: Dockerfile
